@@ -33,7 +33,11 @@ const Works = () => {
             <br />
             Here all the technologies and tools of which I am aware
             <br />
-            °JavaScript - Redux - Express - Postgress - Node - React - Firebase - HTML5 - CSS3 - Boostrap - ReactBoostrap - Figma - PhotoShop - SQL - Git - GitHub°
+            °JavaScript - Redux - Express - Postgress - Node - 
+            <br/>
+            React - Firebase - HTML5 - CSS3 - Boostrap - 
+            <br/>
+            ReactBoostrap - Figma - PhotoShop - SQL - Git - GitHub°
             <br/>
             And always learning more😇
           </spane>
