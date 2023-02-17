@@ -23,7 +23,7 @@ const Works = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
           Here my 
           </span>
-          <span>Technologies</span>
+          <span>Top Technologies</span>
           <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
