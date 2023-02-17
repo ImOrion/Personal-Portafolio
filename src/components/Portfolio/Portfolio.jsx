@@ -14,15 +14,10 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
-      <span>Portfolio</span>
+      <span>Portfolio</span><br/>
+
       <span>
-        "Soon they will be deployed so you can take a look, for now you can see
-        the repositories at{" "}
-        <a href="https://github.com/ImOrion?tab=repositories" target="_blank">
-          this link
-        </a>
-        , Or by clicking on each one respectively and directly see their
-        repository."
+      What more proof of skills than my personal and group projects😊
       </span>
 
       {/* slider */}
@@ -32,11 +27,6 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
-        <SwiperSlide>
-          <a href="https://orion-proyect.web.app/" target="_blank">
-            <img src={Sidebar} alt="" />
-          </a>
-        </SwiperSlide>
         <SwiperSlide>
           <a
             href="https://github.com/ImOrion/RickAndMorty-Proyect"
@@ -51,6 +41,11 @@ const Portfolio = () => {
             target="_blank"
           >
             <img src={HOC} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://orion-proyect.web.app/" target="_blank">
+            <img src={Sidebar} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>

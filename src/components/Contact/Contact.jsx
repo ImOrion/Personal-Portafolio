@@ -7,12 +7,14 @@ const Contact = () => {
   const darkMode = theme.state.darkMode;
   const form = useRef();
   const [done, setDone] = useState(false)
+
+
+
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        "service_2mu5xtl",
+        "service_684sjx9",
         "template_m5udu2c",
         form.current,
         "VLwg1ltOWvnCYAiK_"
@@ -36,25 +38,27 @@ const Contact = () => {
         <div className="awesome">
           {/* darkMode */}
           <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
-          <span>Contact me</span>
+          <span>Contact with me</span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
-          ></div>
+            ></div>
         </div>
+        <br/>
+            <span>"This form is disabled, under maintenance, you can contact us through the links below😅"</span>
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
-          <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
+        <form disabled ref={form} onSubmit={sendEmail}>
+          <input disabled type="text" name="user_name" className="user"  placeholder="Name"/>
+          <input disabled type="email" name="user_email" className="user" placeholder="Email"/>
+          <textarea disabled name="message" className="user" placeholder="Message"/>
+          <input disabled type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
-          ></div>
+            ></div>
         </form>
       </div>
     </div>

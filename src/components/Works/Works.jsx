@@ -52,7 +52,7 @@ const Works = () => {
           viewport={{ margin: "-40px" }}
           transition={{ duration: 3.5, type: "spring" }}
           className="w-mainCircle"
-        >
+          >
           <div className="w-secCircle">
             <img src={Upwork} alt="" />
           </div>
