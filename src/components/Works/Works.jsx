@@ -25,14 +25,17 @@ const Works = () => {
           </span>
           <span>Top Technologies</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+           
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            I have learned to master different technologies
             <br />
-            y dummy text of printingLorem
+            In this animation you can see my favorite and most dominated😊
             <br />
-            ispum is simpley dummy text of printing
+            Here all the technologies and tools of which I am aware
+            <br />
+            °JavaScript - Redux - Express - Postgress - Node - React - Firebase - HTML5 - CSS3 - Boostrap - ReactBoostrap - Figma - PhotoShop - SQL - Git - GitHub°
+            <br/>
+            And always learning more😇
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

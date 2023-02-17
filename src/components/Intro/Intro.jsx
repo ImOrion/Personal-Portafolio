@@ -30,18 +30,26 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Mateo Urquijo</span>
           <span>
-            A Full Stack Developer with high level in web designing
-            and development, producting the Quality work
+            Since I was little I had a notable interest in technology 
+            <br/>Now that i am more aware of what i do, I am passionate about knowing that i am gaining more knowledge and experience.
+            <br/>I am Mateo, a full stack web developer from Colombia, I am happy to be able to show you my learning obtained throughout my days, I have many things to share with you. Here below you can see a little more about me Thank you for giving yourself the opportunity to meet me.
           </span>
+          <span> I hope to see you soon!😊</span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
-        <a href="https://www.linkedin.com/in/imorion/"target="_blank"><img src={LinkedIn} alt="" /></a>
-        <a href="https://github.com/ImOrion"target="_blank"><img src={Github} alt="" /></a>
-        <a href="https://www.instagram.com/just_im_orion/"target="_blank"><img src={Instagram} alt="" /></a>
+          <a href="https://www.linkedin.com/in/imorion/" target="_blank">
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://github.com/ImOrion" target="_blank">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://www.instagram.com/just_im_orion/" target="_blank">
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}
@@ -64,7 +72,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="FullStack" text2="Developer" />
+          <FloatinDiv img={crown} text1="FullStack" text2="Developer P.E.R.N" />
         </motion.div>
         {/* animation */}
         <motion.div
