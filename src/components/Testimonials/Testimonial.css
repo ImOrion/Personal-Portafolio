@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 2rem;
-    width: 30rem;
+    width: 28rem;
     height: 20rem;
     /* styles same as work.css */
     background: rgba(255, 255, 255, 0.26);
@@ -56,8 +56,12 @@
 }
 .testimonial>span{
     color: var(--gray);
+    font-size: 0.8rem;
 }
+.testimonial input{
 
+    font-size: 0.7rem;
+}
 
 /* slider */
 .t-wrapper .swiper {
