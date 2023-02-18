@@ -35,7 +35,7 @@
     justify-content: space-evenly;
     padding: 2rem;
     width: 30rem;
-    height: 12rem;
+    height: 20rem;
     /* styles same as work.css */
     background: rgba(255, 255, 255, 0.26);
     border: 7px solid var(--blueCard);
@@ -45,14 +45,14 @@
 }
 
 .testimonial>img{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 100%;
     transition: 0.5s;
 }
 .testimonial>img:hover{
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
 }
 .testimonial>span{
     color: var(--gray);

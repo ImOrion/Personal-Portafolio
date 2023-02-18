@@ -16,30 +16,37 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        `Rick and morty app is an integration project which was carried out to put into practice the Front End learning, for this project 
+        i used the following technologies and tools:
+        °JavaScript-React-Redux-HTML5-CSS3-Boostrap-ReactBoostrap-Vercel-Git-GitHub°`,
       link: "https://github.com/ImOrion/RickAndMorty-Proyect",
-      btnDesc:"1"
+      btnDesc:"Do you want to know the universe of Rick and morty?"
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        `Dogs app is part of the practical process of my instance in Henry, in which all my previous learning was put to the test, putting my face only against them, I worked creating the application from scratch, my biggest challenge was the back, in the extension of the word, this is a full stack project. The technologies and tools used were:
+        °JavaScript-React-Redux-Sequelize-MySQL-Postgress-Express-Node-HTML5-CSS3-°`,
         link: "https://github.com/ImOrion/Individual-Proyect-Dogs-Henry-",
-      btnDesc:"2"
+      btnDesc:"Come and discover dogs that you did not know 🐶 "
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        `OriOn MusicX, just like the dogs app, is part of the practical stage at Henry, there I had to form a work team to develop a web application, we found a problem and decided to find a solution, we discovered that the distribution of content from producers/singers/creators of content, it was often stagnant due to music or because it was not easy to obtain it, so we created a platform, an e-Commerce where user licenses can be obtained for this audience.
+        The technologies and tools used were:
+        °JavaScript-React-Redux-Firebase-Figma-FontAwesome-CSS3-HTML5-Boostrap-ReactBoostrap-PayPal-Trello°`,
         link: "https://orion-proyect.web.app/",
-      btnDesc:"3"
+      btnDesc:"Come and exploit your talent with our tools🤩 "
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        `And this is my most important project; I.
+        Since I discovered the world of development, I have been passionate about what I do, my great passion is music, OriOn MusicX was born that way, I had this problem and why not combine two things that I love to do?
+        Lastly, I didn't want them not to know a part that i love about myself, music.`,
         link: "https://www.youtube.com/watch?v=xAfoPNh4Ps4",
-      btnDesc:"4"
+      btnDesc:"Go listen to me🫠 "
     },
   ];
 

@@ -1,6 +1,6 @@
 .floatingDiv {
   justify-content: space-around;
-  background: rgb(230, 176, 209);
+  background: rgb(224, 150, 195);
   box-shadow: var(--boxShadow);
   border-radius: 17px;
   display: flex;
