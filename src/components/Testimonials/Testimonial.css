@@ -59,8 +59,7 @@
     font-size: 0.8rem;
 }
 .testimonial input{
-
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 /* slider */
@@ -79,6 +78,11 @@
     background: var(--orange);
 }
 
+@media screen and (max-width:720px){
+    .testimonial>span{
+        font-size: 0.7rem;
+    }
+}
 @media screen and (max-width: 600px){
     .t-wrapper{
         padding: 0;
@@ -86,5 +90,10 @@
     .testimonial>img{
         width: 70px;
         height: 70px;
+        
+    }
+    .testimonial>span{
+        font-size: 0.8rem;
     }
   }
+  

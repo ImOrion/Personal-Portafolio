@@ -29,12 +29,12 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Mateo Urquijo</span>
-          <span>
+          <span id="desc">
             Since I was little I had a notable interest in technology 
             <br/>Now that i am more aware of what i do, I am passionate about knowing that i am gaining more knowledge and experience.
             <br/>I am Mateo, a full stack web developer from Colombia, I am happy to be able to show you my learning obtained throughout my days, I have many things to share with you. Here below you can see a little more about me Thank you for giving yourself the opportunity to meet me.
-          </span>
           <span> I hope to see you soon!😊</span>
+          </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>

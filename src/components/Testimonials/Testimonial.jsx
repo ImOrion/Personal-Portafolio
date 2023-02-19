@@ -16,11 +16,13 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        `Rick and morty app is an integration project which was carried out to put into practice the Front End learning, for this project 
-        i used the following technologies and tools:
-        °JavaScript-React-Redux-HTML5-CSS3-Boostrap-ReactBoostrap-Vercel-Git-GitHub°`,
+        `Rick and morty app is an integration project which was carried out to put into practice the Front End learning.`,
+        reviewTwo: `For this project 
+        i used the following technologies and tools:`,
+        reviewThree: `°JavaScript-React-Redux-HTML5-CSS3-Boostrap-ReactBoostrap-Vercel-Git-GitHub°`,
       link: "https://github.com/ImOrion/RickAndMorty-Proyect",
-      btnDesc:"Do you want to know the universe of Rick and morty?"
+      btnDesc:"Do you want to know ",
+      btnDescTwo:`the universe of Rick and morty?`,
     },
     {
       img: profilePic2,
@@ -74,10 +76,13 @@ const Testimonial = () => {
               <div className="testimonial">
                 <img src={client.img} alt="" />
                 <span>{client.review}</span>
+                <span>{client.reviewTwo}</span>
+                <span>{client.reviewThree}</span>
                 <a href={client.link} target="_blank">
                   <input
                     type="submit"
-                    value={client.btnDesc}
+                    // value={`${client.btnDesc} ${client.btnDescTwo}`} 
+                    value="Lets to see!"
                     className="button"
                   />
                 </a>

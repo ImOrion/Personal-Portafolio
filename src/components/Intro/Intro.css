@@ -93,6 +93,18 @@
   filter: blur(72px);
 }
 
+@media screen and (max-width:830px){
+  #desc{
+    font-size: 0.6rem;
+  }
+  .i-icons {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
   .Intro {
     flex-direction: column;

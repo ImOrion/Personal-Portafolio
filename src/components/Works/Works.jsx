@@ -24,7 +24,7 @@ const Works = () => {
           Here my 
           </span>
           <span>Top Technologies</span>
-          <spane>
+          <span>
            
             <br />
             I have learned to master different technologies
@@ -40,7 +40,7 @@ const Works = () => {
             ReactBoostrap - Figma - PhotoShop - SQL - Git - GitHub°
             <br/>
             And always learning more😇
-          </spane>
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
